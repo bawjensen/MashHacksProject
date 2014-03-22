@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8" />
+	<meta charset="utf-8"/>
 	<title>Travelling!</title>
 
 	<script type="text/javascript" src="script.js"></script>
 	<link rel="stylesheet" type="text/css" href="normalize.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
-
 </head>
 
 <body>
-	<header>Header</header>
-	<div id="contents">Contents</div>
-	<footer>Footer</footer>
+	<div class="contents" id="first-screen">
+		<a href="#second-screen">One</a>
+	</div>
+	<div class="contents" id="second-screen">
+		<a href="#third-screen">Two</a>
+	</div>
+	<div class="contents" id="third-screen">
+		<a href="#first-screen">Three</a>
+	</div>
 </body>
 </html>

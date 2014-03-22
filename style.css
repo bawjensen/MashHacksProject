@@ -1,13 +1,25 @@
-header {
-  height: 10vh;
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.contents {
+  /*position: absolute;*/
+  width: 100%;
+  height: 100%;
+
+  line-height: 100vh;
   text-align: center;
 }
 
-#contents {
-  min-height: 80vh;
+#first-screen {
+  background-color: red;
 }
 
-footer {
-  height: 10vh;
-  text-align: center;
+#second-screen {
+  background-color: orange;
+}
+
+#third-screen {
+  background-color: yellow;
 }
