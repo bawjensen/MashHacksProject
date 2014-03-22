@@ -12,14 +12,20 @@ body {
   text-align: center;
 }
 
+.contents a {
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+}
+
 #first-screen {
   background-color: red;
 }
 
 #second-screen {
-  background-color: orange;
+  background-color: blue;
 }
 
 #third-screen {
-  background-color: yellow;
+  background-color: green;
 }
