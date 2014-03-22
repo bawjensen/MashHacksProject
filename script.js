@@ -13,3 +13,14 @@ window.fbAsyncInit = function()
          js.src = "//connect.facebook.net/en_US/all.js";
          fjs.parentNode.insertBefore(js, fjs);
        }(document, 'script', 'facebook-jssdk'));
+$(function() {
+	$('a').click(function(event) {
+		event.preventDefault();
+
+		$('body, html').animate({
+			scrollTop: $($(this).attr('href')).offset().top
+		}, 200);
+	});
+	// $('body').scrollTo('#second-screen');
+});
+>>>>>>> 0a560b8fdb8ff9a881a523e5b7382dc6328b08ee
